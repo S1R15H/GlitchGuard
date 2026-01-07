@@ -1,10 +1,21 @@
-## Quick Ticket
+## GlitchGuard
 
-Quick Ticket is a minimal ticketing app built with Next.js (App Router) and Prisma. Users can register, log in, create tickets, view their ticket list, and close tickets. The project focuses on a clean server-first architecture using server actions, with observability via Sentry.
+GlitchGuard is a minimal ticketing app built with Next.js (App Router) and Prisma. Users can register, log in, create tickets, view their ticket list, and close tickets. The project focuses on a clean server-first architecture using server actions, with observability via Sentry.
+
+### DEMO:
+
+https://github.com/user-attachments/assets/88dc6c6d-0127-42fd-91ca-19a88263f322
+
+When the ticket is closed.
+<img width="1439" height="410" alt="Screenshot 2026-01-07 at 16 41 53" src="https://github.com/user-attachments/assets/d0115c04-e62b-4040-8891-06e4b49f1f77" />
+
+
 
 Under the hood, it uses PostgreSQL (Neon-friendly), Prisma as the ORM, jose for JWT auth, bcryptjs for password hashing, and Tailwind CSS for styling. Sentry is integrated for error reporting and performance tracing, including both server and edge runtimes.
 
-The codebase is TypeScript-first and includes strict linting and a small utilities layer for logging and auth ergonomics.
+The codebase is TypeS
+
+cript-first and includes strict linting and a small utilities layer for logging and auth ergonomics.
 
 ## Features
 
